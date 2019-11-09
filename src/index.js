@@ -1,9 +1,8 @@
 import readlineSync from 'readline-sync';
 
-const ask =  () => {
-    const userName = readlineSync.question('Как вас зовут');
-
-    console.log('Здравствуйте' + userName + '!');
+const askName = () => {
+	const userName = readlineSync.question('Как вас зовут');
+	console.log('Здравствуйте' + userName + '!');
 }
 
-export default ask
+export default askName
