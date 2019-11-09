@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!')
+import ask from '../index';
 
-import ask  from '../index'
+console.log('Welcome to the Brain Games!');
 
-ask()
-
+ask();
